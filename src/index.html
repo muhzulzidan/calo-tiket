@@ -1,13 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-    <h1 class="text-3xl text-orange-600 font-bold underline">
-        Hello world!
-    </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="home" class="bg-background z-50 fixed top-0 w-full shadow">
+      <!-- Navbar -->
+      <nav
+        id="main-nav"
+        class="bg-background max-w-full mx-auto font-poppins p-6 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <a href="#home" class="flex">
+          <span aria-hidden="true" class="text-lg lg:text-xl text-white">
+            Calo-Ticket
+          </span>
+        </a>
+        <!-- Hamburger Button -->
+        <button
+          aria-label="toggle button"
+          aria-expanded="false"
+          id="menu-btn"
+          class="cursor-pointer w-7 md:hidden"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-7 h-7 text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+            />
+          </svg>
+        </button>
+        <!-- Navbar Menu -->
+        <ul
+          id="hamburger-menu"
+          class="w-full absolute bg-background top-full left-0 -translate-y-full -z-10 text-gray-800 border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+        >
+          <li class="py-4 md:py-0 md:mr-6">
+            <a
+              href="#Home"
+              class="text-sm uppercase text-white font-semibold w-full hover:text-primary"
+              >Home
+            </a>
+          </li>
+          <li class="py-4 md:py-0 md:mr-6">
+            <a
+              href="#event"
+              class="text-sm uppercase text-white font-semibold w-full hover:text-primary"
+              >Event
+            </a>
+          </li>
+          <li class="py-4 md:py-0 md:mr-6">
+            <a
+              href="#projets"
+              class="text-sm uppercase text-white font-semibold w-full hover:text-primary"
+              >Schedule
+            </a>
+          </li>
+          <li class="py-4 md:py-0 md:mr-6">
+            <a
+              href="#projets"
+              class="text-sm uppercase text-white font-semibold w-full hover:text-primary"
+              >Aboutus
+            </a>
+          </li>
+          <li class="py-4 md:py-0 md:mr-6">
+            <a
+              href="#contact"
+              class="text-sm uppercase text-white font-semibold w-full hover:text-primary"
+              >Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <script src="script.js"></script>
+  </body>
 </html>
