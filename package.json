@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "devDependencies": {
-    "tailwindcss": "^3.3.2"
-=======
   "name": "calo-tiket",
   "version": "1.0.0",
   "description": "Calo Tiket adalah proyek konser tiket yang sedang dalam pengembangan. Proyek ini ditujukan untuk membuat sebuah platform yang memungkinkan pengguna untuk membeli tiket konser secara online. Saat ini, proyek ini masih berbasis HTML, CSS, dan menggunakan framework Tailwind CSS.",
@@ -17,6 +13,5 @@
   },
   "dependencies": {
     "flowbite": "^1.6.6"
->>>>>>> bedcda44bb39a809c7718241428bcb7c633001c2
   }
 }
