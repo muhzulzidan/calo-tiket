@@ -6,6 +6,69 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Highlight Section Start -->
+        <section class="mb-5">
+            <h1 class="text-[1.5rem] font-semibold ml-[4rem]">Highlight Concert Videos</h1>
+            <main class="flex">
+              <div class="w-1/12  flex items-center">
+                <div class="w-full text-right">
+                    <button onclick="prev()" class="w-8 h-8 pl-2 rounded-full bg-white border border-gray-500 hover:shadow-lg mr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                    </button>
+                </div>
+              </div>
+              <div id="sliderContainer" class="w-11/12  overflow-hidden">
+                <ul id="slider" class="flex w-full  pl-0 pr-0">
+                    <li class="p-4">
+                        <iframe class="h-56 w-full"  src="https://www.youtube.com/embed/9qD254rDtPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="border p-5">
+                        <h2 class="text-[1rem] font-bold text-gray-700">Some Big Heading</h2>
+                        <p class="mt-2 text-gray-500 text-[1rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa officia numquam provident!</p>
+                        </div>
+                    </li>
+                    <li class="p-4">
+                        <iframe class="h-56 w-full" src="https://www.youtube.com/embed/uBK9LzGTuxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="border p-5">
+                        <h2 class="text-[1rem] font-bold text-gray-700">Some Big Heading</h2>
+                        <p class="mt-2 text-gray-500 text-[1rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa officia numquam provident!</p>
+                        </div>
+                    </li>
+                    <li class="p-4">
+                        <iframe class="h-56 w-full" src="https://www.youtube.com/embed/xKzeh-pn370" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="border p-5">
+                        <h2 class="text-[1rem] font-bold text-gray-700">Some Big Heading</h2>
+                        <p class="mt-2 text-gray-500 text-[1rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa officia numquam provident!</p>
+                        </div>
+                    </li>
+                    <li class="p-4">
+                        <iframe class="h-56 w-full" src="https://www.youtube.com/embed/Fpn1imb9qZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="border p-5">
+                        <h2 class="text-[1rem] font-bold text-gray-700">Some Big Heading</h2>
+                        <p class="mt-2 text-gray-500 text-[1rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa officia numquam provident!</p>
+                        </div>
+                    </li>
+                    <li class="p-4">
+                        <iframe class="h-56 w-full" src="https://www.youtube.com/embed/Fpn1imb9qZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="border p-5">
+                        <h2 class="text-[1rem] font-bold text-gray-700">Some Big Heading</h2>
+                        <p class="mt-2 text-gray-500 text-[1rem]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa officia numquam provident!</p>
+                        </div>
+                    </li>
+                
+                </ul>
+              </div>
+              <div class="w-1/12 flex items-center">
+                <div class="w-full text-left">
+                    <button onclick="next()" class="w-8 h-8 pl-2 rounded-full bg-white border border-gray-500 hover:shadow-lg ml-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+                    </button>
+                </div>
+              </div>
+            </main>
+        </section>
+    <!-- Highlight Section End -->
+
+
     <!-- footer start -->
     <footer class=" text-stone-50 bg-stone-950">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -70,7 +133,7 @@
                             <a href="#" class="text-stone-50 hover:hover:text-stone-100">
                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path fill-rule="evenodd"
-                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086--48-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
                                         clip-rule="evenodd" />
                                 </svg>
                                 <span class="sr-only">Dribbble account</span>
@@ -136,5 +199,6 @@
     </footer>
     <!-- footer end -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

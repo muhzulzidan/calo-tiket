@@ -1124,6 +1124,30 @@ input:checked + .toggle-bg {
   margin-top: 1rem;
 }
 
+.ml-\[1rem\] {
+  margin-left: 1rem;
+}
+
+.ml-\[5rem\] {
+  margin-left: 5rem;
+}
+
+.ml-\[4rem\] {
+  margin-left: 4rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1160,6 +1184,10 @@ input:checked + .toggle-bg {
   height: 1.25rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -1172,8 +1200,24 @@ input:checked + .toggle-bg {
   height: auto;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.w-1\/12 {
+  width: 8.333333%;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-2\/3 {
@@ -1194,6 +1238,30 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[33\.662rem\] {
+  width: 33.662rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-screen-xl {
@@ -1328,6 +1396,10 @@ input:checked + .toggle-bg {
   white-space: nowrap;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1374,6 +1446,11 @@ input:checked + .toggle-bg {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+.border-gray-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
 .border-stone-200 {
   --tw-border-opacity: 1;
   border-color: rgb(231 229 228 / var(--tw-border-opacity));
@@ -1382,6 +1459,16 @@ input:checked + .toggle-bg {
 .border-stone-700 {
   --tw-border-opacity: 1;
   border-color: rgb(68 64 60 / var(--tw-border-opacity));
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .bg-blue-700 {
@@ -1439,8 +1526,16 @@ input:checked + .toggle-bg {
   padding: 0.625rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-2 {
@@ -1501,13 +1596,53 @@ input:checked + .toggle-bg {
   padding-top: 0.5rem;
 }
 
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 
 .text-lg {
@@ -1518,6 +1653,18 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -1548,6 +1695,11 @@ input:checked + .toggle-bg {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -1675,6 +1827,18 @@ input:checked + .toggle-bg {
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.hover\:shadow-md:hover {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .focus\:outline-none:focus {
