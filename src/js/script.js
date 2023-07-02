@@ -1,19 +1,19 @@
-const mainElement = document.querySelector(".main-hero");
-const backgroundImages = [
-  "assets/img/background-00.jpg",
-  "assets/img/background-01.jpg",
-  "assets/img/background-02.jpg",
-  "assets/img/background-03.jpg",
-];
-let defaultIndex = 0;
-setInterval(function () {
-  mainElement.style.backgroundImage =
-    "url(" + backgroundImages[defaultIndex] + ")";
-  defaultIndex++;
-  if (defaultIndex >= backgroundImages.length) {
-    defaultIndex = 0;
-  }
-}, 2000);
+// const mainElement = document.querySelector(".main-hero");
+// const backgroundImages = [
+//   "assets/img/background-00.jpg",
+//   "assets/img/background-01.jpg",
+//   "assets/img/background-02.jpg",
+//   "assets/img/background-03.jpg",
+// ];
+// let defaultIndex = 0;
+// setInterval(function () {
+//   mainElement.style.backgroundImage =
+//     "url(" + backgroundImages[defaultIndex] + ")";
+//   defaultIndex++;
+//   if (defaultIndex >= backgroundImages.length) {
+//     defaultIndex = 0;
+//   }
+// }, 2000);
 
 setInterval(function () {
   let spanElement = document.querySelector(".text-change");
